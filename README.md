@@ -25,4 +25,6 @@ $ Jupyter notebook
 - Choice file .ipynb
 
 
-**1.Camera Projection**
+**1. Camera Projection**
+
+**2. Continue Camera Calibration...**
