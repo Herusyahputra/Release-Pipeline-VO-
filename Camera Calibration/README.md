@@ -1,5 +1,3 @@
-
-
 ### Perspective from n Points (PnP Problem)
 The goal of Perspective from n Points algorithms is to find the pose of the camera in respect to the world reference frame. This means we want to find the six degrees of freedom describing the position and orientation of the camera. As input we have the landmarks in the world reference frame as well as their images on the camera plane. In the case of an uncalibrated camera we additionally want to find out the camera's intrinsic parameters which we have discussed already in chapter 3.
 Let's now find out how many points we need to get a unique solution. First, we look into the case of a calibrated camera.
@@ -61,3 +59,7 @@ Perspective and Central Catadioptric cameras are really equivalent as the follow
 Figure 6: Equivalence between Perspective and Central Catadioptric model 
 
 ![Unified_Omnidirectional_Camera_Model](https://user-images.githubusercontent.com/60929939/124595619-d29d1200-de93-11eb-91ae-3fd412e4925a.png)
+
+##### Summary¶
+For Calibrated cameras the PnP P3P (Perspective from n Points) algorithm is used since the intrinsics are already know. The minimum number of points that are needed is 3+1.
+For uncalibrated camera the DLT (Direct Linear Transform) can be used since the intrinsics first have to be calculated. Here 4 coplanar or 6 non coplanar points are needed
