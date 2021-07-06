@@ -57,6 +57,7 @@ Figure 5: Central Catadioptric
 Perspective and Central Catadioptric cameras are really equivalent as the following image shows.
 
 ![18_equivalence_omnidir_perspective](https://user-images.githubusercontent.com/60929939/124595335-776b1f80-de93-11eb-9424-22d6e6392fc4.png)
+
 Figure 6: Equivalence between Perspective and Central Catadioptric model 
 
 ![Unified_Omnidirectional_Camera_Model](https://user-images.githubusercontent.com/60929939/124595619-d29d1200-de93-11eb-91ae-3fd412e4925a.png)
