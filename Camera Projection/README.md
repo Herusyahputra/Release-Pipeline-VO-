@@ -95,3 +95,11 @@ We are going through three steps:
 At first, we will not take lens distortion into account. We'll see later in this article how to fix lens distortion.
  
 
+
+##### Summary
+In this article, we have seen how to do the conversion between the World Coordinate System, the Camera Coordinate System and the Image Frame, even with the presence of a heavy distortion.
+
+All we need is a definition how the camera stands in respect to the origin, given via T = [R|t], as well as the cameras intrinsics K and an optional definition of the underlaying distortion D.
+
+We can then define new points in the world coordinte system in meters and map then onto the correct pixel locations in the output image
+
