@@ -27,4 +27,8 @@ $ Jupyter notebook
 
 **1. Camera Projection**
 
-**2. Continue Camera Calibration...**
+**2. Continue Camera Calibration**
+
+**3. Point Feature Detection**
+
+**4. Continue..**
