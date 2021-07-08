@@ -71,4 +71,4 @@ SSRE = {\lVert p_1- \pi_1(P) \rVert }^2 + {\lVert p_2- \pi_2(P) \rVert}^2
 where $\pi_i(P)$ is the projection of P onto the i-th camera plane and ${\lVert p_i- \pi_i(P) \rVert }^2$ is the **Reprojection Error**.
 
 ![Reprojection Error](https://github.com/joelbarmettlerUZH/PyVisualOdometry/raw/master/img/chapter_8/10_reprojection_error.png)
-*Figure 10: Reprojection Error [source](http://rpg.ifi.uzh.ch/docs/teaching/2019/07_multiple_view_geometry_1.pdf)*
+*Figure 9: Reprojection Error [source](http://rpg.ifi.uzh.ch/docs/teaching/2019/07_multiple_view_geometry_1.pdf)*
