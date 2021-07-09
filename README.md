@@ -22,8 +22,9 @@ $ Jupyter notebook
 ```
 - Waiting for Automatic open browser
 - Open folder Release-Pipeline-VO-
-- Choice file .ipynb
+- Choice folder and click "file.ipynb"
 
+### List file project pipeline visual odometry
 
 **1. Camera Projection**
 
@@ -31,4 +32,8 @@ $ Jupyter notebook
 
 **3. Point Feature Detection**
 
-**4. Continue..**
+**4. Point Feature Description**
+
+**5. StreoVision, Triangulation**
+
+**6. Feature Tracking**
